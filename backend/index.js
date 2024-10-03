@@ -14,8 +14,7 @@ const mainRouter = require("./route/index.js")
 
 app.use("/api/v1" , mainRouter);
 
-const port = 3000;
-
-app.listen(port , () => {
-    console.log("app is listening at port " , port);
+const PORT = process.env.PORT || 5000;
+app.listen(PORT , () => {
+    console.log("app is listening at port " , PORT);
 })

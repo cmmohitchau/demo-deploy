@@ -5,8 +5,6 @@ const zod = require("zod");
 const bcrypt = require("bcrypt")
 const { Admin } = require('../db')
 const JWT_SECRET = require('../config')
-const jwt = require('jsonwebtoken')
-
 const router = express.Router();
 
 const AdminBody = zod.object({
