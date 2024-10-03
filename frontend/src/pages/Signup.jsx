@@ -1,15 +1,13 @@
-import { Header } from "../components/Header"
-import { SubHeading } from "../components/SubHeading"
-import { InputBox } from "../components/Input"
-import { Button } from "../components/Button"
-import axios from "axios"
-import { useState } from "react"
-import { useRecoilState, useSetRecoilState } from "recoil"
-import { LoginAtom } from "../atoms/LoginAtom"
-import { Appbar } from "../components/Appbar"
-import { BACKEND_URL } from "../../config"
-
-import { Link , useNavigate } from "react-router-dom"
+import { Header } from "../components/Header";
+import { InputBox } from "../components/Input";
+import { Button } from "../components/Button";
+import axios from "axios";
+import { useState } from "react";
+import { useRecoilState, useSetRecoilState } from "recoil";
+import { LoginAtom } from "../atoms/LoginAtom";
+import { Appbar } from "../components/Appbar";
+import { BACKEND_URL } from "../../config";
+import { Link , useNavigate } from "react-router-dom";
 
 
 export function Signup() {

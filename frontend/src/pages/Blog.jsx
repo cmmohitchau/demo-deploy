@@ -1,4 +1,4 @@
-import { useParams } from "react-router-dom"
+import { useParams } from "react-router-dom";
 import { useBlog } from "../hooks/blogHooks";
 import Fullblog from "../components/Blog/FullBlog";
 import SkeletonFullblog from "../components/Blog/Skeleton";

@@ -6,7 +6,7 @@ import { Appbar } from "../components/Appbar"
 import { LoginAtom } from "../atoms/LoginAtom";
 import { Link , useNavigate } from "react-router-dom";
 import { useSetRecoilState } from "recoil";
-import axios from 'axios'
+import axios from 'axios';
 
 export function Signin() {
     const [postInputs , setPostInputs] = useState({

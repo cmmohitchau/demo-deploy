@@ -1,7 +1,6 @@
-import { Link } from "react-router-dom"
-import { useNavigate } from "react-router-dom"
-import { useRecoilState, useRecoilValue} from 'recoil'
-
+import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
+import { useRecoilState, useRecoilValue} from 'recoil';
 import { LoginAtom } from "../atoms/LoginAtom";
 
 export function Appbar() {

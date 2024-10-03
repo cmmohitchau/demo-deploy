@@ -1,5 +1,5 @@
-import { Appbar } from "../components/Appbar"
-import BlogCard from "../components/Blog/BlogCard"
+import { Appbar } from "../components/Appbar";
+import BlogCard from "../components/Blog/BlogCard";
 import { useBlogs } from '../hooks/blogHooks';
 
 const Blogs = () => {

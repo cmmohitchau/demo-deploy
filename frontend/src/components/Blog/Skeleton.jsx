@@ -1,5 +1,5 @@
 // components/Blogs/SkeletonFullblog.jsx
-import {Appbar} from "../Appbar"
+import {Appbar} from "../Appbar";
 
 const SkeletonFullblog = () => (
     <div className="animate-pulse">

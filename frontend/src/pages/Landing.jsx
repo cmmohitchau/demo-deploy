@@ -1,5 +1,5 @@
 import { Appbar } from '../components/Appbar';
-import myImage from '../assets/images/image.jpg'
+import myImage from '../assets/images/image.jpg';
 import { useNavigate } from 'react-router-dom';
 export function Landing() {
   const navigate = useNavigate()

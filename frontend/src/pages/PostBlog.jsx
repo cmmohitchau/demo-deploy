@@ -1,9 +1,8 @@
-import { useState } from "react"
-import { InputBox } from "../components/Input"
-import axios from "axios"
-import { BACKEND_URL } from "../../config"
-import { useNavigate } from "react-router-dom"
-import { Appbar } from "../components/Appbar"
+import { useState } from "react";
+import axios from "axios";
+import { BACKEND_URL } from "../../config";
+import { useNavigate } from "react-router-dom";
+import { Appbar } from "../components/Appbar";
 export function PostBlog() {
     const [post , setPost] = useState({
         title : "",
