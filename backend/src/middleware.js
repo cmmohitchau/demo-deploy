@@ -1,5 +1,5 @@
 //  backend/middleware.js
-const JWT_SECRET = require("./config")
+const JWT_SECRET = require("./src/config")
 const jwt = require("jsonwebtoken")
 
 function authMiddleware(req,res,next){

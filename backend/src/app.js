@@ -9,7 +9,7 @@ const app = express()
 
 app.use(cors())
 app.use(express.json())
-const mainRouter = require("./route/index.js")
+const mainRouter = require("../route/index.js")
 
 
 app.use("/api/v1" , mainRouter);
