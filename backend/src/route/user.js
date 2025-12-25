@@ -5,10 +5,10 @@ const router = express.Router();
 const zod = require("zod")
 const bcrypt = require("bcrypt")
 const jwt = require("jsonwebtoken")
-const JWT_SECRET = require("../src/config")
+const JWT_SECRET = require("../config")
 
 const { User } =
-require("../src/db");
+require("../db");
 
 const validateUser = zod.object({
     username: zod.string().email(),
