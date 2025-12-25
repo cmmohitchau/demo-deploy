@@ -4,7 +4,7 @@ const cors = require("cors")
 require("./db.js")
 require('dotenv').config();
 
-const app = express()
+export const app = express()
 
 
 app.use(cors())
@@ -18,6 +18,5 @@ app.get("/test" , (req , res) => {
 app.use("/api/v1" , mainRouter);
 
 const PORT = process.env.PORT || 5000;
-app.listen(PORT , () => {
-    console.log("app is listening at port " , PORT);
-})
+
+export default app;
