@@ -19,4 +19,6 @@ app.use("/api/v1" , mainRouter);
 
 const PORT = process.env.PORT || 5000;
 
-export default app;
+app.listen(PORT , () => {
+    console.log("app is listening at port " , PORT);
+})
