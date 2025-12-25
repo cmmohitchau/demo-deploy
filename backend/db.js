@@ -80,6 +80,7 @@ const BlogSchema = new mongoose.Schema({
         require : true
     }
 })
+
 const User = mongoose.model('User', userSchema);
 const Admin = mongoose.model('Admin' , adminSchema);
 const Blog = mongoose.model('Blog' , BlogSchema)
